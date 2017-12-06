@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+
+<!--  $Header: pcbpel/tracking/tracking-fabric/src/main/resources/oracle/soa/tracking/fabric/audit/serializer/soa-audit-pof-config.xml /main/4 2014/02/18 12:48:45 dcraft Exp $ -->
+
+<pof-config xmlns="http://xmlns.oracle.com/coherence/coherence-pof-config"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://xmlns.oracle.com/coherence/coherence-pof-config http://xmlns.oracle.com/coherence/coherence-pof-config/1.1/coherence-pof-config.xsd">
+  <user-type-list>
+    <include>coherence-pof-config.xml</include>
+    <include>oracle/soa/tracking/fabric/audit/serializer/soa-audit-pof-config-fabric.xml</include>
+    <include>oracle/soa/tracking/fabric/audit/serializer/soa-audit-pof-config-bpel.xml</include>
+    <include>oracle/soa/tracking/fabric/audit/serializer/soa-audit-pof-config-mediator.xml</include>
+
+    <!-- ====================================================== -->
+    <!-- [1001-1999] Tracking service-supplied POF serializers. -->
+    
+    <!-- See soa-audit-pof-config-fabric.xml -->
+
+
+    <!-- ============================================== -->
+    <!-- [2000-2999] Case Management SE POF serializers -->
+
+
+    <!-- =================================== -->
+    <!-- [3000-3999] Cube SE POF serializers -->
+
+    <!-- See soa-audit-pof-config-bpel.xml -->
+
+
+    <!-- =================================== -->
+    <!-- [4000-4999] Mediator SE serializers -->
+
+    <!-- See soa-audit-pof-config-mediator.xml -->
+
+
+    <!-- =============================== -->
+    <!-- [5000-5999] Rules SE serializers-->
+
+
+    <!-- ================================= -->
+    <!-- [6000-6999] Spring SE serializers -->
+
+
+    <!-- ==================================== -->
+    <!-- [7000-7999] Work Flow SE serializers -->
+
+  </user-type-list>
+</pof-config>
